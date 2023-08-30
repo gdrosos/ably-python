@@ -34,6 +34,8 @@ jobs:
     - name: lock
       run: poetry lock
     - name: Install dependencies
+      run: poetry install
+    - name: Install dependencies
       run: poetry install -E crypto
     - name: Lint with flake8
       run: poetry run flake8
