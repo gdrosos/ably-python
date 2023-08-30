@@ -8,7 +8,7 @@ on:
   pull_request:
   push:
     branches:
-      - ci-test-branch
+      - ci-test
 
 jobs:
   check:
